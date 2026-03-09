@@ -1,6 +1,5 @@
-console.log("Hello World");
-
-
+let humanScore = 0;
+let computerScore = 0;
 
 function getComputerChoice(r, p, s){
 r = "rocks";
@@ -26,6 +25,7 @@ function getHumanChoice(input){
     }
     
 }
+
 let userInput = prompt("Rock(r) Paper(p) or Scissor(s)?");
 console.log(userInput);
 let tempRo;
